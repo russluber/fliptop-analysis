@@ -1,0 +1,25 @@
+name: fliptop-analysis
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - plotly
+  - jupyterlab
+  - ipykernel
+  - beautifulsoup4
+  - requests
+  - scikit-learn
+  - networkx
+  - lifelines
+  - scikit-survival
+  - pyvis
+  - pip
+  - pip:
+      - yt-dlp
+      - unidecode
+      - regex
+      - ftfy

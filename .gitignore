@@ -1,0 +1,31 @@
+# Bytecode, caches
+__pycache__/
+*.py[cod]
+*.so
+
+# Notebook junk
+.ipynb_checkpoints/
+
+# Environment / config files
+.env
+*.env
+
+# VS Code project settings (optional)
+.vscode/
+
+# Data (ignore full data, but allow samples)
+data/
+!data/sample.json
+!data/README.md
+
+# Logs or temp files
+*.log
+*.tmp
+*.bak
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Jupyter export artifacts
+*.nbconvert.ipynb
