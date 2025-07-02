@@ -8,7 +8,7 @@ for downstream analysis.
 Author: Russel Luber
 """
 
-import yt_dlp
+import yt_dlp  as yt
 
 
 def scrape_channel(channel_url):
