@@ -14,10 +14,10 @@ __pycache__/
 .vscode/
 
 # Data (ignore full data, but allow samples)
-data/
-data/secret.json
+data/*
 !data/sample.json
 !data/README.md
+data/secret.json
 
 # Logs or temp files
 *.log
