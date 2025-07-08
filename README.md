@@ -1,5 +1,6 @@
 # FlipTop Analysis
-A project analyzing data about the [FlipTop Battle League](https://www.fliptop.com.ph/about), a Filipino rap battle league that uploads rap battle videos on [YouTube](https://www.youtube.com/@fliptopbattles).
+
+This project explores rap battles in the [FlipTop Battle League](https://www.fliptop.com.ph/about), modeling emcee career histories and rap battle networks.
 
 ## 📝 Plan
 
