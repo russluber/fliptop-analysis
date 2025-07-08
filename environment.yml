@@ -19,7 +19,6 @@ dependencies:
   - pyvis
   - pip
   - pip:
-      - yt-dlp
       - unidecode
       - regex
       - ftfy
