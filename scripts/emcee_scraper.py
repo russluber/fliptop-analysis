@@ -1,6 +1,8 @@
 # emcee_scraper.py
 
 import requests
+import csv
+import os
 from bs4 import BeautifulSoup
 
 def scrape_names(base_url="https://www.fliptop.com.ph/emcees", max_pages=10):
@@ -37,5 +39,24 @@ def scrape_names(base_url="https://www.fliptop.com.ph/emcees", max_pages=10):
         print(f"Scraped {len(h4_tags)} names from page {page}.")
 
     return emcee_names
+
+
+def write_names_to_csv(names, output_path):
+    """
+    Writes a list of emcee names to a CSV file.
+
+    Parameters:
+        names (list[str]): List of names to write.
+        output_path (str): File path for the CSV.
+    """
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+
+    with open(output_path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(["name"])
+        for name in names:
+            writer.writerow([name])
+
+    print(f"Wrote {len(names)} names to {output_path}")
 
 
