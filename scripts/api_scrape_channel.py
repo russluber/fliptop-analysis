@@ -162,3 +162,6 @@ if __name__ == "__main__":
         scrape_channel_by_id(args.channel, args.output)
     except Exception as e:
         print(f"Error: {e}")
+
+# Run in VS Code integrated terminal like so:
+# python .\scripts\api_scrape_channel.py --channel UCBdHwFIE4AJWSa3Wxdu7bAQ --output .\data\videos.json
